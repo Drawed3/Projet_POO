@@ -9,6 +9,7 @@ class Dino : public Game {
     Dino(U8G2_SH1107_SEEED_128X128_1_SW_I2C& u8g2); // constructeur qui prend une référence à un objet de type U8G2_SH1107_SEEED_128X128_1_SW_I2C
   private:
     int dinoColor; 
+    void drawGame();
 };
 
 #endif
